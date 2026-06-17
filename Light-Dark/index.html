@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light-Dark</title>
+
+    <style>
+        body {
+            background-color: #e0fbfc;
+            color: #293241;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        h2 {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        button {
+            background-color: #293241;
+            border-radius: 7px;
+            color: #e0fbfc;
+            border: none;
+            padding: 10px 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        button:hover {
+            filter: brightness(0.90);
+            transition: 0.5s ease;
+        }
+        
+        .darkTheme {
+            background-color: #293241;
+            color: #ee6c4d;
+        }
+
+        .darkThemeButton {
+            background-color: #ee6c4d;
+            color: #293241;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h2>I'm Miles Morales and I'll become a Software Developer</h2>
+    <button class="themeButton">Theme</button>
+
+    <script>
+        const themeButton = document.querySelector('.themeButton');
+        
+        function changeTheme() {
+            document.body.classList.toggle('darkTheme');
+            themeButton.classList.toggle('darkThemeButton');
+        }
+
+        themeButton.addEventListener('click', changeTheme);
+    </script>
+
+</body>
+</html>

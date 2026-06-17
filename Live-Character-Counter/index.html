@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Character Counter</title>
+
+    <script src="script.js" defer></script>
+
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #003049;
+            color: #fcbf49;
+        }
+        
+        .textBox {
+            border-radius: 5px;
+            background-color: #eae2b7;
+            color: #003049;
+        }
+
+        .textBox:hover {
+            padding: 5px;
+            transition: 0.2s ease;
+        }
+
+        .textBox:focus {
+            outline-color: #fcbf49;
+            border: none;
+        }
+
+        .limitReached {
+            background-color: #3d0208;
+            color: #d62828;
+            font-weight: bold;
+        }
+
+    </style>
+
+</head>
+<body>
+    <h2>How was your day?</h2>
+
+    <textarea class="textBox" rows="5" cols="40" placeholder="Start Typing..."></textarea>
+
+    <p class="counterDisplay">0 / 50 characters</p>
+</body>
+</html>
