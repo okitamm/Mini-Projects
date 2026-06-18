@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #003049;
+    color: #fcbf49;
+}
+
+.textBox {
+    border-radius: 5px;
+    background-color: #eae2b7;
+    color: #003049;
+}
+
+.textBox:hover {
+    padding: 5px;
+    transition: 0.2s ease;
+}
+
+.textBox:focus {
+    outline-color: #fcbf49;
+    border: none;
+}
+
+.limitReached {
+    background-color: #3d0208;
+    color: #d62828;
+    font-weight: bold;
+}
