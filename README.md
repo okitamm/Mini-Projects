@@ -1,15 +1,16 @@
 # 🚀 Mini-Projects
 
-A collection of experiments, prototypes, and small applications built while exploring various areas of Computer Engineering and software development.
+A collection of experiments, prototypes, and small applications built while exploring various areas of Computer Engineering and software development intended to improve myself.
 
 ---
 
 ## 📂 What's Inside?
 
-* **🌐 Web Development** – HTML, CSS, JavaScript, React, and Firebase projects.
-* **⚙️ IoT & Hardware** – ESP32, Raspberry Pi, sensors, and automation.
-* **🗄️ Backend & Databases** – APIs, SQL, and server-side experiments.
-* **🛠️ Utilities & Automation** – Python scripts and productivity tools.
+* **🌐 Web Development** 
+* **⚙️ IoT & Hardware** 
+* **🗄️ Backend & Databases** 
+* **🛠️ Utilities & Automation** 
+* **✨ ...and more soon!**
 
 ## 🚀 Getting Started
 
